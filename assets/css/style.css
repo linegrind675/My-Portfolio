@@ -1,0 +1,64 @@
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --dark-grey: #4C6478;
+    --light-grey: #A4A4A4;
+    --light-blue: #379BEE;
+}
+
+body {
+    color: var(--light-grey);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 35px;
+    background-color: var(--dark-grey);
+    width: 100%;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--light-blue);
+    margin: 0px;
+    display: inline;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+header nav {
+    margin: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 15px 20px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.hero img {
+   width: 100%;
+   height: auto;
+}
