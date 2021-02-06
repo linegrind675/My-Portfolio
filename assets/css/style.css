@@ -6,18 +6,30 @@
     --light-blue: #379BEE;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     color: var(--light-grey);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 20px 35px;
+    padding: 25px 35px;
     background-color: var(--dark-grey);
-    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("https://www.tamuk.edu/finance/its/_images_its/digital_and_technology_banner_1800x640.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
 }
 
 header h1 {
@@ -31,7 +43,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: var(--black);
+    color: var(--light-grey);
 }
 
 header nav {
@@ -50,15 +62,75 @@ header nav ul li a {
     padding: 15px 20px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text shadow: 0 0 10px rgba(0,0,0,0.5)
+    text shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--dark-grey);
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    color: var(--black);
+    font-size: 30px;
+    margin: 0;
 }
 
 .hero {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    background-image: url("https://www.tamuk.edu/finance/its/_images_its/digital_and_technology_banner_1800x640.jpg");
+    background-size: cover;
+    background-position: 80%;
+    align-items: flex-start;
+    background-attachment: fixed;
+    height: 400px;
 }
 
-.hero img {
-   width: 100%;
-   height: auto;
+.hero-cta {
+    width: 40%;
+    text-align: right;
+    margin: 5px;
+    color: var(--black);
+    font-size: 20px;
+    line-height: 1.2; 
+}
+
+.hero-cta h2 {
+    font-size: 60px;
+    color: var(--light-blue);
+    font-weight: bold;
+    text-align: right;
+    
+}
+
+.hero-cta p {
+    font-size: 30px;
+    color: var(--light-grey);
+}
+
+.collections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    background: var(--dark-grey);
+    padding: 20px 20px;
+}
+
+.collection {
+
+}
+
+.section-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 40px;
+    color: var(--light-blue);
 }
