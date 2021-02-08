@@ -65,6 +65,13 @@ header nav ul li a {
     text shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+header nav ul li a:hover {
+    background: var(--light-blue);
+    color: var(--black);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -76,7 +83,7 @@ footer {
 
 footer h2 {
     color: var(--black);
-    font-size: 30px;
+    font-size: 26px;
     margin: 0;
 }
 
@@ -95,10 +102,11 @@ footer h2 {
 .hero-cta {
     width: 40%;
     text-align: right;
-    margin: 5px;
+    margin: 20px;
     color: var(--black);
     font-size: 20px;
     line-height: 1.2; 
+    
 }
 
 .hero-cta h2 {
@@ -115,17 +123,18 @@ footer h2 {
 }
 
 .collections {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     width: 100%;
     background: var(--dark-grey);
-    padding: 20px 20px;
+    padding: 40px 40px;
 }
 
 .collection {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
 
 .section-title {
     display: flex;
@@ -133,4 +142,58 @@ footer h2 {
     justify-content: center;
     font-size: 40px;
     color: var(--light-blue);
+    margin: 10px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    font-size: 30px;
+
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    border-bottom: 2px solid;
+}
+
+.bio p {
+    text-align: center;
+    margin: 5%;
+}
+
+.bio ul li {
+    margin: 10%;
+    padding: 5px;
+    text-align: left;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: var(--black);
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px;
+    
+}
+
+.bio-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: var(--black);
+    font-size: 20px;
+}
+
+.contact {
+    font-size: 30px;
+    margin: 10px;
+    color: var(--dark-grey);
 }
