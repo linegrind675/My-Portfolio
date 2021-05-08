@@ -45,8 +45,15 @@ section .title {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.navbar .max-width {
+.navbar .sticky {
+    padding: 15px 0;
+    background: #00EEEE;
+}
 
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navbar .logo a {
@@ -57,6 +64,10 @@ section .title {
 
 .navbar .logo a span {
     color: #00EEEE;
+}
+
+.navbar.sticky .logo a span {
+    color: #fff;
 }
 
 .navbar .menu li {
@@ -157,6 +168,14 @@ section .title {
     text-align: justify;
 }
 
+.about .about-content .right a:hover {
+
+}
+
+.about .about-content .right .tab {
+    margin-left: 15px;
+}
+
 .skills .title {
 
 }
@@ -211,11 +230,13 @@ section .title {
 }
 
 .contact .contact-content .column {
-
+    width: 30px;
 }
 
 .contact .contact-content .text {
-
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .contact .contact-content .left {
