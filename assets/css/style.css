@@ -127,7 +127,8 @@ section .title {
 }
 
 .home .home-content a:hover {
-
+    color: #00EEEE;
+    background: none;
 }
 
 .about .title {
@@ -139,19 +140,21 @@ section .title {
 }
 
 .about .about-content .right {
-
+    width: 50%;
 }
 
 .about .about-content .right .text {
-
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .about .about-content .right .text span {
-
+    color: #00EEEE;
 }
 
 .about .about-content .right p {
-
+    text-align: justify;
 }
 
 .skills .title {
@@ -159,13 +162,15 @@ section .title {
 }
 
 .skills .skills-content .column {
-
+    width: 80px;
 }
 
 .skills .skills-content .left1 .text,
 .skills .skills-content .right .text,
 .skills .skills-content .center .text {
-
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 13px;
 }
 
 .projects .title {
@@ -173,7 +178,7 @@ section .title {
 }
 
 .projects .carousel .card {
-
+    
 }
 
 .projects .carousel .card:hover {
