@@ -125,3 +125,132 @@ section .title {
     font-weight: 400;
     border: 2px solid #00EEEE;
 }
+
+.home .home-content a:hover {
+
+}
+
+.about .title {
+
+}
+
+.about .about-content .left {
+    width: 45%;
+}
+
+.about .about-content .right {
+
+}
+
+.about .about-content .right .text {
+
+}
+
+.about .about-content .right .text span {
+
+}
+
+.about .about-content .right p {
+
+}
+
+.skills .title {
+
+}
+
+.skills .skills-content .column {
+
+}
+
+.skills .skills-content .left1 .text,
+.skills .skills-content .right .text,
+.skills .skills-content .center .text {
+
+}
+
+.projects .title {
+
+}
+
+.projects .carousel .card {
+
+}
+
+.projects .carousel .card:hover {
+
+}
+
+.projects .carousel .card .box {
+
+}
+
+.projects .carousel .card:hover .box {
+
+}
+
+.projects .carousel .card .text {
+
+}
+
+.contact .title {
+
+}
+
+.contact .contact-content .column {
+
+}
+
+.contact .contact-content .text {
+
+}
+
+.contact .contact-content .left {
+
+}
+
+.contact .contact-content .row {
+
+}
+
+.contact .contact-content .row .info {
+
+}
+
+.contact .contact-content .info .head {
+
+}
+
+.contact .contact-content .info .sub-title {
+
+}
+
+footer {
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 1300px) {
+
+}
+
+@media (max-width: 1104px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 947px) {
+
+}
+
+@media (max-width: 690px) {
+
+}
+
+@media (max-width: 500px) {
+
+}
