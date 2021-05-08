@@ -4,114 +4,182 @@
 <head>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <meta charset="UTF-8" />
-    <title>Jonah's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Jonah Callister</title>
 </head>
 
 <body>
     
-    <header>
-        <h1>Jonah's Portfolio</h1>
-
-        <nav>
-            <ul>
-                <li>
-                    <a href="#my-work">My Work</a>
-                </li>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Jonah<span>Callister</span><a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
-    <section class="hero">
-        
-        <div class="hero-cta">
-            <h2>Welcome!</h2>
-            <p>This webpage is a compilation of my work, some things about me, and how to contact me.</p>
-        </div>    
-
-
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Jonah Callister</div>
+                <div class="text-3">And I'm a Developer</div>
+                <a href="#contact">Contact Me</a>
+            </div>
+        </div>
     </section>
 
-    <section id="my-work" class="collections">
-        <div class="flex-row">
-            <h2 class="section-title primary-border">My Work</h2>
-        </div>
-        <div class="collection">
-            <h3 class="projects">Run Buddy</h3>
-            <div class="collection-info">
-                <div class="collection-img">
-                    <iframe src="https://linegrind675.github.io/run-buddy/"> 
-                    </iframe>
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Jonah and I'm a future Developer</div>
+                    <p>
+
+                    </p>
                 </div>
             </div>
         </div>
-
-        <div class="collection">
-            <h3 class="projects">Coming Soon</h3>
-            <div class="collection-info">
-                <div class="collection-img">
-                    <img src="https://via.placeholder.com/200" alt="" />
-                </div>
-            </div>
-        </div>
-
-        <div class="collection">
-            <h3 class="projects">Coming Soon</h3>
-            <div class="collection-info">
-                <div class="collection-img">
-                    <img src="https://via.placeholder.com/200" alt="" />
-                </div>
-            </div>
-        </div>
-
-        <div class="collection">
-            <h3 class="projects">Coming Soon</h3>
-            <div class="collection-info">
-                <div class="collection-img">
-                    <img src="https://via.placeholder.com/200" alt="" />
-                </div>
-            </div>
-        </div>
-
     </section>
 
-    <section id="about-me" class="bio">
-        <div class="bio-info">
-            <h3 class="about">About Me</h3>
-            <p>
-                I am a dedicated person, with a passion to succeed with web development. <br/> Currently a student for the Coding Bootcamp through the University of Utah. <br/>  
-                Aside from working with code, I enjoy many outdoor activities. <br/> I am a hardcore gamer and a movie buff, I also enjoy reading a good book. <br/> Here are some of my hobbies.  
-            </p>
-            <ul>
-                <li>Skiing</li>
-                <li>Photography</li>
-                <li>Hiking</li>
-                <li>Golfing</li>
-                <li>Gaming</li>
-            </ul>
-
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My Skills</h2>
+            <div class="skills-content">
+                <div class="column left1">
+                    <div class="text">Programming</div>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
+                        <li>SQL</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                    </ul>
+                </div>
+                <div class="column center">
+                    <div class="text">Databases</div>
+                    <ul>
+                        <li>Oracle Databases</li>
+                    </ul>
+                </div>
+                <div class="colimn right">
+                    <div class="text">Others</div>
+                    <ul>
+                        <li>MS Tools</li>
+                        <li>Git</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Windows</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="contact-me" class="contact">
-        <h3>Contact Me</h3>
-        <div class="contact-info">
-            <address>
-                P: <a href="tel:507.581.6307">507.581.6307</a><br/>
-                E: <a href="mailto:linegrind@icloud.com">linegrind@icloud.com</a>
-            </address>
+    <section class="projects" id="projects">
+        <div class="max-width">
+            <h2 class="title">Projects</h2>
+            <div class="carousel oul-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="" alt="">
+                        <div class="text">Portfolio</div>
+                        <span class="sub-text">- 2021 -</span>
+                        <p> HTML, CSS, and JavaScript were used to make this professional and responsive portfolio.
+                            <br>
+                            <a href="">
+                                Visit GitHub Repository
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="" alt="">
+                        <div class="text">Snek</div>
+                        <span class="sub-text">- 2021 -</span>
+                        <p> A rendition of the classic game of Snake. Eating food and growing larger, while avoiding walls and yourself.
+                            <br>
+                            <a href="">
+                                Visit GitHub Repository
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="" alt="">
+                        <div class="text">Slim Pickins'</div>
+                        <span class="sub-text">- 2021 -</span>
+                        <p> A recipe generator
+                            <br>
+                            <a href="">
+                                Visit GitHub Repository
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>Hiring? Contact me if you find any interest in this portfolio and my work.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <img src="./images/user.png" alt="User Icon" />
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Jonah Callister</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img src="./images/pin.png" alt="Location icon" />
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Salt Lake City, UT</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img src="./images/mail.png" alt="Mail Icon" />
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">linegrind@icloud.com</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img src="./images/linkedin.png" alt="LI Icon" />
+                            <div class="info">
+                                <div class="head">LinkedIn</div>
+                                <div class="sub-title">
+                                    <a href="https://www.linkedin.com/in/jonah-callister-101094204/">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
     </section>
 
     <footer>
-        <h2>Made by the man himself, Jonah Callister 😎</h2>
-        <p>&#169 Copyright 2021 by nobody</p>
+        <span>&copy; 2021 | Jonah Callister</span>
     </footer>
 
 </body>

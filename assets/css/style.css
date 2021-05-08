@@ -1,199 +1,30 @@
-:root {
-    --black: #000000;
-    --white: #FFFFFF;
-    --dark-grey: #4C6478;
-    --light-grey: #A4A4A4;
-    --light-blue: #379BEE;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    color: var(--light-grey);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 25px 35px;
-    background-color: var(--dark-grey);
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-image: url("https://www.tamuk.edu/finance/its/_images_its/digital_and_technology_banner_1800x640.jpg");
-    background-size: cover;
-    background-position: 80%;
-    background-attachment: fixed;
-}
-
-header h1 {
-    font-weight: bold;
-    font-size: 40px;
-    color: var(--light-blue);
-    margin: 0px;
-    display: inline;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-
-header a {
     text-decoration: none;
-    color: var(--light-grey);
 }
 
-header nav {
-    margin: 10px 0;
+html {
+    scroll-behavior: smooth;
 }
 
-header nav ul {
-    display: flex;
-    flex-wrap: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+section {
+    padding: 100px 0;
 }
 
-header nav ul li a {
-    padding: 15px 20px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-    text shadow: 0 0 10px rgba(0,0,0,0.5);
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
 }
 
-header nav ul li a:hover {
-    background: var(--light-blue);
-    color: var(--black);
-    border-radius: 15px;
-    text-shadow: none;
+.about, .skills, .projects, .contact, footer {
+    font-family: 'Poppins', sans-serif;
 }
 
-footer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    background-color: var(--dark-grey);
-    width: 100%;
-    padding: 40px 35px;
-}
-
-footer h2 {
-    color: var(--black);
-    font-size: 26px;
-    margin: 0;
-}
-
-.hero {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-image: url("https://www.tamuk.edu/finance/its/_images_its/digital_and_technology_banner_1800x640.jpg");
-    background-size: cover;
-    background-position: 80%;
-    align-items: flex-start;
-    background-attachment: fixed;
-    height: 400px;
-}
-
-.hero-cta {
-    width: 40%;
-    text-align: right;
-    margin: 20px;
-    color: var(--black);
-    font-size: 20px;
-    line-height: 1.2; 
+.about .about-content,
+.skills .skills-content,
+.contact .contact-content {
     
-}
-
-.hero-cta h2 {
-    font-size: 60px;
-    color: var(--light-blue);
-    font-weight: bold;
-    text-align: right;
-    
-}
-
-.hero-cta p {
-    font-size: 30px;
-    color: var(--light-grey);
-}
-
-.collections {
-    width: 100%;
-    background: var(--dark-grey);
-    padding: 40px 40px;
-}
-
-.collection {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-
-.section-title {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 40px;
-    color: var(--light-blue);
-    margin: 10px;
-}
-
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 10px;
-    font-size: 30px;
-
-}
-
-.bio {
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-    width: 100%;
-    border-bottom: 2px solid;
-}
-
-.bio p {
-    text-align: center;
-    margin: 5%;
-}
-
-.bio ul li {
-    margin: 10%;
-    padding: 5px;
-    text-align: left;
-}
-
-.about {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: var(--black);
-    font-size: 40px;
-    font-weight: bold;
-    margin: 10px;
-    
-}
-
-.bio-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: var(--black);
-    font-size: 20px;
-}
-
-.contact {
-    font-size: 30px;
-    margin: 10px;
-    color: var(--dark-grey);
 }
