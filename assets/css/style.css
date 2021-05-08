@@ -11,6 +11,7 @@ html {
 
 section {
     padding: 100px 0;
+    background: black;
 }
 
 .max-width {
@@ -26,5 +27,101 @@ section {
 .about .about-content,
 .skills .skills-content,
 .contact .contact-content {
-    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .title {
+
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar .max-width {
+
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .logo a span {
+    color: #00EEEE;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.navbar .menu li a:hover {
+    color: #00EEEE;
+}
+
+.menu-btn {
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+.home {
+    display: flex;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home .max-width {
+    margin: auto 0 auto 30px;
+}
+
+.home .home-content .text-1 {
+    font-size: 28px;
+}
+
+.home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -4px;
+}
+
+.home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span {
+    color: #00EEEE;
+    font-weight: 500;
+}
+
+.home .home-content a {
+    display: inline-block;
+    background: #00EEEE;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    font-weight: 400;
+    border: 2px solid #00EEEE;
 }
