@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +13,7 @@ html {
 
 section {
     padding: 100px 0;
-    background: black;
+    
 }
 
 .max-width {
@@ -34,6 +36,20 @@ section {
 }
 
 section .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section .title::before {
+
+}
+
+section .title::after {
 
 }
 
@@ -45,8 +61,15 @@ section .title {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.navbar .max-width {
+.navbar .sticky {
+    padding: 15px 0;
+    background: #00EEEE;
+}
 
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navbar .logo a {
@@ -57,6 +80,10 @@ section .title {
 
 .navbar .logo a span {
     color: #00EEEE;
+}
+
+.navbar.sticky .logo a span {
+    color: #fff;
 }
 
 .navbar .menu li {
@@ -76,6 +103,10 @@ section .title {
     color: #00EEEE;
 }
 
+.navbar.sticky .menu li a:hover {
+    color: #fff;
+}
+
 .menu-btn {
     color: #fff;
     font-size: 23px;
@@ -85,6 +116,10 @@ section .title {
 
 .home {
     display: flex;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+    ), url("images/banner.jpg");
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -123,5 +158,164 @@ section .title {
     font-size: 25px;
     padding: 12px 36px;
     font-weight: 400;
+    border-radius: 6px;
     border: 2px solid #00EEEE;
+}
+
+.home .home-content a:hover {
+    color: #00EEEE;
+    background: none;
+}
+
+.about .about-content .left {
+    width: 45%;
+    color: #fff;
+}
+
+.about .about-content .left img {
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    border-radius: 6px;
+}
+
+.about .about-content .right {
+    width: 50%;
+}
+
+.about .about-content .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about .about-content .right .text span {
+    color: #00EEEE;
+}
+
+.about .about-content .right p {
+    text-align: justify;
+}
+
+.about .about-content .right a:hover {
+    color: #00EEEE;
+    background: none;
+}
+
+.about .about-content .right .tab {
+    margin-left: 15px;
+}
+
+.skills .title {
+
+}
+
+.skills .skills-content .column {
+    width: 80px;
+}
+
+.skills .skills-content .left1 .text,
+.skills .skills-content .right .text,
+.skills .skills-content .center .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.projects .title {
+
+}
+
+.projects .carousel .card {
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+}
+
+.projects .carousel .card:hover {
+    background: #00EEEE;
+    text-decoration: none;
+}
+
+.projects .carousel .card .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects .carousel .card:hover .box {
+    transform: scale(1.10);
+}
+
+.projects .carousel .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+.contact .title {
+
+}
+
+.contact .contact-content .column {
+    width: 30px;
+}
+
+.contact .contact-content .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact .contact-content .left {
+
+}
+
+.contact .contact-content .row {
+
+}
+
+.contact .contact-content .row .info {
+
+}
+
+.contact .contact-content .info .head {
+
+}
+
+.contact .contact-content .info .sub-title {
+
+}
+
+footer {
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 1300px) {
+
+}
+
+@media (max-width: 1104px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 947px) {
+
+}
+
+@media (max-width: 690px) {
+
+}
+
+@media (max-width: 500px) {
+
 }
